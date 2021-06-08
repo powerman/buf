@@ -1,4 +1,4 @@
-module github.com/bufbuild/buf
+module github.com/powerman/buf
 
 go 1.16
 

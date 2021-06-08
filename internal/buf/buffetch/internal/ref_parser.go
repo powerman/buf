@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/git"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/git"
+	"github.com/powerman/buf/internal/pkg/normalpath"
 	"go.uber.org/zap"
 )
 

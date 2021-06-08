@@ -18,7 +18,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/normalpath"
 )
 
 var (

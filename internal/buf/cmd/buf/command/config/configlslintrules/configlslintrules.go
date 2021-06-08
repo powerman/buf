@@ -17,13 +17,13 @@ package configlslintrules
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcheck"
-	"github.com/bufbuild/buf/internal/buf/bufcheck/buflint"
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	configinternal "github.com/bufbuild/buf/internal/buf/cmd/buf/command/config/internal"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/app/appflag"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufcheck"
+	"github.com/powerman/buf/internal/buf/bufcheck/buflint"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	configinternal "github.com/powerman/buf/internal/buf/cmd/buf/command/config/internal"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/app/appflag"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

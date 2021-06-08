@@ -18,11 +18,11 @@ package registryv1alpha1apiclienttwirp
 
 import (
 	context "context"
-	registryv1alpha1api "github.com/bufbuild/buf/internal/gen/proto/api/buf/alpha/registry/v1alpha1/registryv1alpha1api"
-	registryv1alpha1apiclient "github.com/bufbuild/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
-	v1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/registry/v1alpha1"
-	httpclient "github.com/bufbuild/buf/internal/pkg/transport/http/httpclient"
-	twirpclient "github.com/bufbuild/buf/internal/pkg/transport/twirp/twirpclient"
+	registryv1alpha1api "github.com/powerman/buf/internal/gen/proto/api/buf/alpha/registry/v1alpha1/registryv1alpha1api"
+	registryv1alpha1apiclient "github.com/powerman/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	v1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/registry/v1alpha1"
+	httpclient "github.com/powerman/buf/internal/pkg/transport/http/httpclient"
+	twirpclient "github.com/powerman/buf/internal/pkg/transport/twirp/twirpclient"
 	zap "go.uber.org/zap"
 )
 

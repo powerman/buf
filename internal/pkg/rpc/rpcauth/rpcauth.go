@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/rpc"
+	"github.com/powerman/buf/internal/pkg/rpc"
 )
 
 const (

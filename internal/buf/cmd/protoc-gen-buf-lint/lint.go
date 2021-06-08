@@ -21,14 +21,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bufbuild/buf/internal/buf/bufcheck/buflint"
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/applog"
-	"github.com/bufbuild/buf/internal/pkg/app/appproto"
-	"github.com/bufbuild/buf/internal/pkg/encoding"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufcheck/buflint"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/applog"
+	"github.com/powerman/buf/internal/pkg/app/appproto"
+	"github.com/powerman/buf/internal/pkg/encoding"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"google.golang.org/protobuf/types/pluginpb"
 )
 

@@ -17,7 +17,7 @@ package rpctwirp
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/pkg/rpc"
+	"github.com/powerman/buf/internal/pkg/rpc"
 	"github.com/twitchtv/twirp"
 )
 

@@ -18,9 +18,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/bufcheck/internal"
-	"github.com/bufbuild/buf/internal/pkg/protosource"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/bufcheck/internal"
+	"github.com/powerman/buf/internal/pkg/protosource"
 )
 
 // addFunc adds a FileAnnotation.

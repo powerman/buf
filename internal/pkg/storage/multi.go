@@ -17,7 +17,7 @@ package storage
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/pkg/storage/storageutil"
+	"github.com/powerman/buf/internal/pkg/storage/storageutil"
 )
 
 // MultiReadBucket takes the union of the ReadBuckets.

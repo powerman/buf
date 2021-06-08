@@ -17,10 +17,10 @@ package bufapimodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
-	"github.com/bufbuild/buf/internal/pkg/rpc"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	"github.com/powerman/buf/internal/pkg/rpc"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 type moduleReader struct {

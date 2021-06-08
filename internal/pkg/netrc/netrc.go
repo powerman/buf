@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 
 	"github.com/bgentry/go-netrc/netrc"
-	"github.com/bufbuild/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app"
 	"go.uber.org/multierr"
 )
 

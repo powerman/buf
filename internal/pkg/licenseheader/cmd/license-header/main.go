@@ -19,10 +19,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/diff"
-	"github.com/bufbuild/buf/internal/pkg/licenseheader"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/diff"
+	"github.com/powerman/buf/internal/pkg/licenseheader"
 	"github.com/spf13/pflag"
 )
 

@@ -15,9 +15,9 @@
 package appflag
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/applog"
-	"github.com/bufbuild/buf/internal/pkg/app/appname"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/applog"
+	"github.com/powerman/buf/internal/pkg/app/appname"
 	"go.uber.org/zap"
 )
 

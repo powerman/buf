@@ -23,11 +23,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/applog"
-	"github.com/bufbuild/buf/internal/pkg/app/appproto"
-	"github.com/bufbuild/buf/internal/pkg/app/appproto/appprotoexec"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/applog"
+	"github.com/powerman/buf/internal/pkg/app/appproto"
+	"github.com/powerman/buf/internal/pkg/app/appproto/appprotoexec"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
 )

@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcli"
-	"github.com/bufbuild/buf/internal/buf/cmd/buf"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/internal/pkg/osextended"
+	"github.com/powerman/buf/internal/buf/bufcli"
+	"github.com/powerman/buf/internal/buf/cmd/buf"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/app/appcmd/appcmdtesting"
+	"github.com/powerman/buf/internal/pkg/osextended"
 	"github.com/stretchr/testify/require"
 )
 

@@ -20,9 +20,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/appproto"
-	"github.com/bufbuild/buf/internal/pkg/protoencoding"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/appproto"
+	"github.com/powerman/buf/internal/pkg/protoencoding"
 	"go.opencensus.io/trace"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/pluginpb"

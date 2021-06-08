@@ -17,8 +17,8 @@
 package datawkt
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
 )
 
 var (

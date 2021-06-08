@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 const faqPage = "https://docs.buf.build/faq"

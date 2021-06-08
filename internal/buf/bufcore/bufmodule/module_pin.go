@@ -17,8 +17,8 @@ package bufmodule
 import (
 	"time"
 
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/internal/pkg/prototime"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/powerman/buf/internal/pkg/prototime"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

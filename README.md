@@ -1,8 +1,8 @@
 # Buf
 
-[![License](https://img.shields.io/github/license/bufbuild/buf?color=blue)](https://github.com/bufbuild/buf/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/v/release/bufbuild/buf?include_prereleases)](https://github.com/bufbuild/buf/releases)
-[![CI](https://github.com/bufbuild/buf/workflows/ci/badge.svg)](https://github.com/bufbuild/buf/actions?workflow=ci)
+[![License](https://img.shields.io/github/license/bufbuild/buf?color=blue)](https://github.com/powerman/buf/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/v/release/bufbuild/buf?include_prereleases)](https://github.com/powerman/buf/releases)
+[![CI](https://github.com/powerman/buf/workflows/ci/badge.svg)](https://github.com/powerman/buf/actions?workflow=ci)
 [![Docker](https://img.shields.io/docker/pulls/bufbuild/buf)](https://hub.docker.com/r/bufbuild/buf)
 [![Homebrew](https://img.shields.io/badge/homebrew-v0.43.2-blue)](https://github.com/bufbuild/homebrew-buf)
 [![AUR](https://img.shields.io/aur/version/buf)](https://aur.archlinux.org/packages/buf)
@@ -148,5 +148,5 @@ After completing the tour, check out the remainder of the docs for your specific
 We've aimed to provide as much documentation as we can for the various components of Buf to give
 you a full understanding of Buf's surface area.
 
-Finally, [follow the project on GitHub](https://github.com/bufbuild/buf),
+Finally, [follow the project on GitHub](https://github.com/powerman/buf),
 and [contact us](https://docs.buf.build/contact) if you'd like to get involved.

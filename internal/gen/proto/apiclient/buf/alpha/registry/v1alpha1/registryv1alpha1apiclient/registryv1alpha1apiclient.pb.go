@@ -18,7 +18,7 @@ package registryv1alpha1apiclient
 
 import (
 	context "context"
-	registryv1alpha1api "github.com/bufbuild/buf/internal/gen/proto/api/buf/alpha/registry/v1alpha1/registryv1alpha1api"
+	registryv1alpha1api "github.com/powerman/buf/internal/gen/proto/api/buf/alpha/registry/v1alpha1/registryv1alpha1api"
 )
 
 // Provider provides all the types in registryv1alpha1apiclient.

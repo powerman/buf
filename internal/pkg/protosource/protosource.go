@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/normalpath"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

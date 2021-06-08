@@ -14,7 +14,7 @@
 
 package bufmodule
 
-import "github.com/bufbuild/buf/internal/buf/bufcore"
+import "github.com/powerman/buf/internal/buf/bufcore"
 
 var _ FileInfo = &fileInfo{}
 

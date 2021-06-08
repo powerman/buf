@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/internal"
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/buf/bufcore"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/internal"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
 )
 
 type module struct {

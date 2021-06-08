@@ -21,7 +21,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/diff"
+	"github.com/powerman/buf/internal/pkg/diff"
 )
 
 // DiffOption is an option for Diff.

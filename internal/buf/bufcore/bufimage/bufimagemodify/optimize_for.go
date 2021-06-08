@@ -17,7 +17,7 @@ package bufimagemodify
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

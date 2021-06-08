@@ -17,9 +17,9 @@ package internal
 import (
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/buf/bufcheck"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/buf/bufcheck"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 	"github.com/spf13/pflag"
 )
 

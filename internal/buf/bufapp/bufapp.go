@@ -18,9 +18,9 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/pkg/app/appname"
-	"github.com/bufbuild/buf/internal/pkg/cert/certclient"
-	"github.com/bufbuild/buf/internal/pkg/netconfig"
+	"github.com/powerman/buf/internal/pkg/app/appname"
+	"github.com/powerman/buf/internal/pkg/cert/certclient"
+	"github.com/powerman/buf/internal/pkg/netconfig"
 )
 
 const currentVersion = "v1"

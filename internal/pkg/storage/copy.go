@@ -19,7 +19,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/bufbuild/buf/internal/pkg/thread"
+	"github.com/powerman/buf/internal/pkg/thread"
 	"go.uber.org/multierr"
 )
 

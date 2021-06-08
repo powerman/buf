@@ -18,15 +18,15 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app/appproto"
-	"github.com/bufbuild/buf/internal/pkg/protogenutil"
+	"github.com/powerman/buf/internal/pkg/app/appproto"
+	"github.com/powerman/buf/internal/pkg/protogenutil"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 
 const (
 	contextPackage     = protogen.GoImportPath("context")
-	httpclientPackage  = protogen.GoImportPath("github.com/bufbuild/buf/internal/pkg/transport/http/httpclient")
-	twirpclientPackage = protogen.GoImportPath("github.com/bufbuild/buf/internal/pkg/transport/twirp/twirpclient")
+	httpclientPackage  = protogen.GoImportPath("github.com/powerman/buf/internal/pkg/transport/http/httpclient")
+	twirpclientPackage = protogen.GoImportPath("github.com/powerman/buf/internal/pkg/transport/twirp/twirpclient")
 	zapPackage         = protogen.GoImportPath("go.uber.org/zap")
 	pluginName         = "apiclienttwirp"
 )

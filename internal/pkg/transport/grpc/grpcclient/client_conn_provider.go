@@ -22,7 +22,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/bufbuild/buf/internal/pkg/rpc/rpcgrpc"
+	"github.com/powerman/buf/internal/pkg/rpc/rpcgrpc"
 	"go.opencensus.io/plugin/ocgrpc"
 	"go.opencensus.io/trace"
 	"go.uber.org/zap"

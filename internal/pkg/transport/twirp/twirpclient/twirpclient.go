@@ -17,7 +17,7 @@
 package twirpclient
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/rpc/rpctwirp"
+	"github.com/powerman/buf/internal/pkg/rpc/rpctwirp"
 	"github.com/twitchtv/twirp"
 )
 

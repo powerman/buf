@@ -20,8 +20,8 @@ import (
 	"errors"
 	"text/template"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 // If this is updated, make sure to update docs.buf.build TODO automate this

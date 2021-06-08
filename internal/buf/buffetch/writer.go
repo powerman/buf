@@ -18,8 +18,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/internal/buf/buffetch/internal"
-	"github.com/bufbuild/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/buf/buffetch/internal"
+	"github.com/powerman/buf/internal/pkg/app"
 	"go.uber.org/zap"
 )
 

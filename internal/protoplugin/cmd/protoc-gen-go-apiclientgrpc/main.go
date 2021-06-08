@@ -18,14 +18,14 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app/appproto"
-	"github.com/bufbuild/buf/internal/pkg/protogenutil"
+	"github.com/powerman/buf/internal/pkg/app/appproto"
+	"github.com/powerman/buf/internal/pkg/protogenutil"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 
 const (
 	contextPackage    = protogen.GoImportPath("context")
-	grpcclientPackage = protogen.GoImportPath("github.com/bufbuild/buf/internal/pkg/transport/grpc/grpcclient")
+	grpcclientPackage = protogen.GoImportPath("github.com/powerman/buf/internal/pkg/transport/grpc/grpcclient")
 	zapPackage        = protogen.GoImportPath("go.uber.org/zap")
 	pluginName        = "apiclientgrpc"
 )

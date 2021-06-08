@@ -20,9 +20,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/gen/data/datawkt"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/gen/data/datawkt"
+	"github.com/powerman/buf/internal/pkg/storage"
 	"go.uber.org/multierr"
 )
 

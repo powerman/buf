@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageutil"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storageutil"
 )
 
 type readBucketBuilder struct {

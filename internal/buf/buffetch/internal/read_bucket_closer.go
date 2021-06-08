@@ -15,8 +15,8 @@
 package internal
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 type readBucketCloser struct {

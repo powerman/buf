@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufcoretesting"
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/powerman/buf/internal/buf/bufcore/bufcoretesting"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

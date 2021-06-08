@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app/appname"
+	"github.com/powerman/buf/internal/pkg/app/appname"
 )
 
 // ExternalClientTLSConfig allows users to configure TLS on the client side.

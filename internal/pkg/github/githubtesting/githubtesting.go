@@ -19,7 +19,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 

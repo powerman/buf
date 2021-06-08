@@ -17,8 +17,8 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 var _ ModuleFileSet = &moduleFileSet{}

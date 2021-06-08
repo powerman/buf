@@ -15,7 +15,7 @@
 package observabilityzap
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/observability"
+	"github.com/powerman/buf/internal/pkg/observability"
 	"go.uber.org/zap"
 )
 

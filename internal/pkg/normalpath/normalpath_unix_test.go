@@ -23,7 +23,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 	"github.com/stretchr/testify/assert"
 )
 

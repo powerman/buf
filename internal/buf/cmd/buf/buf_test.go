@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcli"
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd/appcmdtesting"
+	"github.com/powerman/buf/internal/buf/bufcli"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/app/appcmd/appcmdtesting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

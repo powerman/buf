@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/bufmoduletesting"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/bufmoduletesting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
 func TestNewConfigV1Beta1Success1(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/56
+	// https://github.com/powerman/buf/issues/56
 	t.Parallel()
 	testNewConfigV1Beta1Success(
 		t,

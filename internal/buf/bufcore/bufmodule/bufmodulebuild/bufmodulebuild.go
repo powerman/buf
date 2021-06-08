@@ -17,9 +17,9 @@ package bufmodulebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 

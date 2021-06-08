@@ -22,19 +22,19 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcli"
-	"github.com/bufbuild/buf/internal/buf/internal/buftesting"
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/internal/pkg/app/appflag"
-	"github.com/bufbuild/buf/internal/pkg/protoencoding"
-	"github.com/bufbuild/buf/internal/pkg/prototesting"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
-	"github.com/bufbuild/buf/internal/pkg/testingextended"
+	"github.com/powerman/buf/internal/buf/bufcli"
+	"github.com/powerman/buf/internal/buf/internal/buftesting"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/app/appcmd/appcmdtesting"
+	"github.com/powerman/buf/internal/pkg/app/appflag"
+	"github.com/powerman/buf/internal/pkg/protoencoding"
+	"github.com/powerman/buf/internal/pkg/prototesting"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storagearchive"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/pkg/testingextended"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/descriptorpb"
@@ -56,7 +56,7 @@ type testPluginInfo struct {
 
 func TestOverlap(t *testing.T) {
 	t.Parallel()
-	// https://github.com/bufbuild/buf/issues/113
+	// https://github.com/powerman/buf/issues/113
 	appcmdtesting.RunCommandSuccess(
 		t,
 		func(name string) *appcmd.Command {

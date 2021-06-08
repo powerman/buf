@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/bufmoduletesting"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
 	"github.com/stretchr/testify/require"
 )
 

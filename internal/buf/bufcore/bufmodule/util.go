@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"io"
 
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/internal/pkg/encoding"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/uuidutil"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/powerman/buf/internal/pkg/encoding"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/uuidutil"
 	"go.uber.org/multierr"
 )
 

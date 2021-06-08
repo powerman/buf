@@ -17,8 +17,8 @@ package bufimagetesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"

@@ -14,7 +14,7 @@
 
 package internal
 
-import "github.com/bufbuild/buf/internal/pkg/normalpath"
+import "github.com/powerman/buf/internal/pkg/normalpath"
 
 var (
 	_ ParsedArchiveRef = &archiveRef{}

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

@@ -18,7 +18,7 @@ package registryv1alpha1api
 
 import (
 	context "context"
-	v1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	v1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
 )
 
 // DownloadService is the download service.

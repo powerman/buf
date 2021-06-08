@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore"
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/powerman/buf/internal/pkg/storage"
 	"go.uber.org/multierr"
 )
 

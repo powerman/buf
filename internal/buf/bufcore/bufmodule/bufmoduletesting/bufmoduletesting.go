@@ -14,7 +14,7 @@
 
 package bufmoduletesting
 
-import "github.com/bufbuild/buf/internal/pkg/uuidutil"
+import "github.com/powerman/buf/internal/pkg/uuidutil"
 
 const (
 	// TestDigest is a valid digest.

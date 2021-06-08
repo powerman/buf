@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/normalpath"
 )
 
 type locker struct {

@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/internal/pkg/filelock"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/bufmoduletesting"
+	"github.com/powerman/buf/internal/pkg/filelock"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

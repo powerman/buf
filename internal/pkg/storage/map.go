@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageutil"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage/storageutil"
 )
 
 // MapReadBucket maps the ReadBucket.

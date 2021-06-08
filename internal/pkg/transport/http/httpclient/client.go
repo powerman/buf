@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/observability"
-	"github.com/bufbuild/buf/internal/pkg/rpc/rpchttp"
+	"github.com/powerman/buf/internal/pkg/observability"
+	"github.com/powerman/buf/internal/pkg/rpc/rpchttp"
 )
 
 type client struct {

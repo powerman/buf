@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/buffetch"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/buffetch"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 	"github.com/spf13/pflag"
 )
 

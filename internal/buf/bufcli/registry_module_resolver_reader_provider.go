@@ -19,14 +19,14 @@ import (
 	"os"
 	"sync"
 
-	"github.com/bufbuild/buf/internal/buf/bufapimodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/bufmodulecache"
-	"github.com/bufbuild/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
-	"github.com/bufbuild/buf/internal/pkg/app/appflag"
-	"github.com/bufbuild/buf/internal/pkg/filelock"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufapimodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/bufmodulecache"
+	"github.com/powerman/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	"github.com/powerman/buf/internal/pkg/app/appflag"
+	"github.com/powerman/buf/internal/pkg/filelock"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 )
 
 const modDir = "mod"

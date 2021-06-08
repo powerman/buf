@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/protodescriptor"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/protodescriptor"
 )
 
 // ValidateFileInfoPath validates the FileInfo path.

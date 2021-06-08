@@ -17,9 +17,9 @@ package bufimagebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
 	"go.uber.org/zap"
 )
 

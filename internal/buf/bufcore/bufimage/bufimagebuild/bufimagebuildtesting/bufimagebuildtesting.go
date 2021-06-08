@@ -21,10 +21,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage/bufimagebuild"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/bufmodulebuild"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage/bufimagebuild"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/bufmodulebuild"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
 	"go.uber.org/zap"
 )
 

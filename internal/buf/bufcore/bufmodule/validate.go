@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strings"
 
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/internal/pkg/netextended"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
-	"github.com/bufbuild/buf/internal/pkg/uuidutil"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/powerman/buf/internal/pkg/netextended"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/pkg/uuidutil"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

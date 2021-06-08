@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/pkg/protosource"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/pkg/protosource"
 )
 
 // NewInputFiles gets around Go's lack of generics.

@@ -17,10 +17,10 @@ package bufimage
 import (
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	imagev1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/image/v1"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/protodescriptor"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	imagev1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/image/v1"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/protodescriptor"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"

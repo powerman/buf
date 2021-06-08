@@ -17,11 +17,11 @@ package bufbreaking
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/bufcheck/internal"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage/bufimageutil"
-	"github.com/bufbuild/buf/internal/pkg/protosource"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/bufcheck/internal"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage/bufimageutil"
+	"github.com/powerman/buf/internal/pkg/protosource"
 	"go.uber.org/zap"
 )
 

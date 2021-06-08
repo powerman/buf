@@ -15,8 +15,8 @@
 package bufwire
 
 import (
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
 )
 
 type moduleConfig struct {

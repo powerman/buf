@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/bufbuild/buf/internal/pkg/osextended"
+	"github.com/powerman/buf/internal/pkg/osextended"
 	"go.uber.org/multierr"
 )
 

@@ -19,9 +19,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/pkg/filelock"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/pkg/filelock"
+	"github.com/powerman/buf/internal/pkg/storage"
 	"go.uber.org/zap"
 )
 

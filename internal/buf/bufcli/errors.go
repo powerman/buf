@@ -19,11 +19,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/appcmd"
-	"github.com/bufbuild/buf/internal/pkg/app/appflag"
-	"github.com/bufbuild/buf/internal/pkg/rpc"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/appcmd"
+	"github.com/powerman/buf/internal/pkg/app/appflag"
+	"github.com/powerman/buf/internal/pkg/rpc"
 )
 
 const (
@@ -74,7 +74,7 @@ func isInternalError(err error) bool {
 
 func (e *errInternal) Error() string {
 	message := "it looks like you have found a bug in buf. " +
-		"Please file an issue at https://github.com/bufbuild/buf/issues/ " +
+		"Please file an issue at https://github.com/powerman/buf/issues/ " +
 		"and provide the command you ran"
 	if e.cause == nil {
 		return message

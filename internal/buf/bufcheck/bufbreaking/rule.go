@@ -14,7 +14,7 @@
 
 package bufbreaking
 
-import "github.com/bufbuild/buf/internal/buf/bufcheck/internal"
+import "github.com/powerman/buf/internal/buf/bufcheck/internal"
 
 type rule struct {
 	*internal.Rule

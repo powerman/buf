@@ -14,7 +14,7 @@
 
 package storageos
 
-import "github.com/bufbuild/buf/internal/pkg/storage"
+import "github.com/powerman/buf/internal/pkg/storage"
 
 type provider struct {
 	symlinks bool

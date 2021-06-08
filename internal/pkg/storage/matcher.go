@@ -15,7 +15,7 @@
 package storage
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/normalpath"
 )
 
 // Matcher is a path matcher.

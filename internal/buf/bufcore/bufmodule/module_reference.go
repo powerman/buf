@@ -15,7 +15,7 @@
 package bufmodule
 
 import (
-	modulev1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
+	modulev1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/module/v1alpha1"
 )
 
 type moduleReference struct {

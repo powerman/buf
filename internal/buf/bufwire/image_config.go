@@ -15,8 +15,8 @@
 package bufwire
 
 import (
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
 )
 
 type imageConfig struct {

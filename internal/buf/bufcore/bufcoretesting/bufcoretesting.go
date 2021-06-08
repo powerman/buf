@@ -17,7 +17,7 @@ package bufcoretesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore"
+	"github.com/powerman/buf/internal/buf/bufcore"
 	"github.com/stretchr/testify/require"
 )
 

@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/encoding"
+	"github.com/powerman/buf/internal/pkg/encoding"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

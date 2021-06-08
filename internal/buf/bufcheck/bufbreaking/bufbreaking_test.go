@@ -20,16 +20,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/bufanalysis/bufanalysistesting"
-	"github.com/bufbuild/buf/internal/buf/bufcheck/bufbreaking"
-	"github.com/bufbuild/buf/internal/buf/bufconfig"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage/bufimagebuild"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/bufmodulebuild"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/bufanalysis/bufanalysistesting"
+	"github.com/powerman/buf/internal/buf/bufcheck/bufbreaking"
+	"github.com/powerman/buf/internal/buf/bufconfig"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage/bufimagebuild"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/bufmodulebuild"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
@@ -310,7 +310,7 @@ func TestRunBreakingFileNoDelete(t *testing.T) {
 }
 
 func TestRunBreakingFileNoDeleteUnstable(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/211
+	// https://github.com/powerman/buf/issues/211
 	testBreaking(
 		t,
 		"breaking_file_no_delete_unstable",

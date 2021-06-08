@@ -15,8 +15,8 @@
 package bufcore
 
 import (
-	"github.com/bufbuild/buf/internal/buf/bufcore/internal/bufcorevalidate"
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/buf/bufcore/internal/bufcorevalidate"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 var _ FileInfo = &fileInfo{}

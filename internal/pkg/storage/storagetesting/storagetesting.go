@@ -27,12 +27,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageutil"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
-	"github.com/bufbuild/buf/internal/pkg/tmp"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storagearchive"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/pkg/storage/storageutil"
+	"github.com/powerman/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/pkg/tmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

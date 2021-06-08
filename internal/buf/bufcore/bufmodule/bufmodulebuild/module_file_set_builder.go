@@ -17,7 +17,7 @@ package bufmodulebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
 	"go.uber.org/zap"
 )
 

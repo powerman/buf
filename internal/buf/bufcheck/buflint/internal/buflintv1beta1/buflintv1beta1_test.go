@@ -17,7 +17,7 @@ package buflintv1beta1
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcheck/internal/internaltesting"
+	"github.com/powerman/buf/internal/buf/bufcheck/internal/internaltesting"
 )
 
 func TestVersionSpec(t *testing.T) {

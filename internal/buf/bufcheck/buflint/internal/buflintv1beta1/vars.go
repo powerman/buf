@@ -15,8 +15,8 @@
 package buflintv1beta1
 
 import (
-	"github.com/bufbuild/buf/internal/buf/bufcheck/buflint/internal/buflintbuild"
-	"github.com/bufbuild/buf/internal/buf/bufcheck/internal"
+	"github.com/powerman/buf/internal/buf/bufcheck/buflint/internal/buflintbuild"
+	"github.com/powerman/buf/internal/buf/bufcheck/internal"
 )
 
 var (

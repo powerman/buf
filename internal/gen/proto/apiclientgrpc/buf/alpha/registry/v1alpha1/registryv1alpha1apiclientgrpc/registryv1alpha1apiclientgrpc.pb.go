@@ -18,10 +18,10 @@ package registryv1alpha1apiclientgrpc
 
 import (
 	context "context"
-	registryv1alpha1api "github.com/bufbuild/buf/internal/gen/proto/api/buf/alpha/registry/v1alpha1/registryv1alpha1api"
-	registryv1alpha1apiclient "github.com/bufbuild/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
-	v1alpha1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/registry/v1alpha1"
-	grpcclient "github.com/bufbuild/buf/internal/pkg/transport/grpc/grpcclient"
+	registryv1alpha1api "github.com/powerman/buf/internal/gen/proto/api/buf/alpha/registry/v1alpha1/registryv1alpha1api"
+	registryv1alpha1apiclient "github.com/powerman/buf/internal/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	v1alpha1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/registry/v1alpha1"
+	grpcclient "github.com/powerman/buf/internal/pkg/transport/grpc/grpcclient"
 	zap "go.uber.org/zap"
 )
 

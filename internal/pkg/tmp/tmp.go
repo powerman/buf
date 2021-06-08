@@ -22,8 +22,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/internal/pkg/interrupt"
-	"github.com/bufbuild/buf/internal/pkg/uuidutil"
+	"github.com/powerman/buf/internal/pkg/interrupt"
+	"github.com/powerman/buf/internal/pkg/uuidutil"
 	"go.uber.org/multierr"
 )
 

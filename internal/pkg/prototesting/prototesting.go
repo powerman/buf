@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/pkg/diff"
-	"github.com/bufbuild/buf/internal/pkg/protoencoding"
+	"github.com/powerman/buf/internal/pkg/diff"
+	"github.com/powerman/buf/internal/pkg/protoencoding"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/testing/protocmp"

@@ -17,8 +17,8 @@ package buffetch
 import (
 	"path/filepath"
 
-	"github.com/bufbuild/buf/internal/buf/buffetch/internal"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/buf/buffetch/internal"
+	"github.com/powerman/buf/internal/pkg/normalpath"
 )
 
 var _ SourceRef = &sourceRef{}

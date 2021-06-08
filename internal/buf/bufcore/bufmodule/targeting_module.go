@@ -19,12 +19,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore"
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule/internal"
-	"github.com/bufbuild/buf/internal/buf/bufcore/internal/bufcorevalidate"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/buf/bufcore"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule/internal"
+	"github.com/powerman/buf/internal/buf/bufcore/internal/bufcorevalidate"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 )
 
 type targetingModule struct {

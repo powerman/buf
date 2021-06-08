@@ -17,7 +17,7 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 // readBucket implements the ReadBucket interface.

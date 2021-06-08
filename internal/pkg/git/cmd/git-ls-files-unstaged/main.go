@@ -29,8 +29,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 )
 
 func main() {

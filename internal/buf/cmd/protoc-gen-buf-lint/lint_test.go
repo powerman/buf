@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/pkg/app"
-	"github.com/bufbuild/buf/internal/pkg/app/appproto"
-	"github.com/bufbuild/buf/internal/pkg/protoencoding"
-	"github.com/bufbuild/buf/internal/pkg/prototesting"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app/appproto"
+	"github.com/powerman/buf/internal/pkg/protoencoding"
+	"github.com/powerman/buf/internal/pkg/prototesting"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/pluginpb"
 )

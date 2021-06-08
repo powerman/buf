@@ -17,10 +17,10 @@ package bufmodulebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/storage"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagemem"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage/storagemem"
 	"go.uber.org/zap"
 )
 
@@ -82,7 +82,7 @@ func (b *moduleBucketBuilder) buildForBucket(
 		roots = append(roots, root)
 		mappers := []storage.Mapper{
 			// need to do match extension here
-			// https://github.com/bufbuild/buf/issues/113
+			// https://github.com/powerman/buf/issues/113
 			storage.MatchPathExt(".proto"),
 			storage.MapOnPrefix(root),
 		}

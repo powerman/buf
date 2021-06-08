@@ -18,11 +18,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufmodule"
-	"github.com/bufbuild/buf/internal/buf/bufcore/internal/bufcorevalidate"
-	imagev1 "github.com/bufbuild/buf/internal/gen/proto/go/buf/alpha/image/v1"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/buf/bufcore/bufmodule"
+	"github.com/powerman/buf/internal/buf/bufcore/internal/bufcorevalidate"
+	imagev1 "github.com/powerman/buf/internal/gen/proto/go/buf/alpha/image/v1"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 )
 
 func getImportFileIndexes(protoImage *imagev1.Image) (map[int]struct{}, error) {

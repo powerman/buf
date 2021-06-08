@@ -17,7 +17,7 @@ package bufmodule
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/internal/pkg/uuidutil"
+	"github.com/powerman/buf/internal/pkg/uuidutil"
 	"github.com/stretchr/testify/require"
 )
 

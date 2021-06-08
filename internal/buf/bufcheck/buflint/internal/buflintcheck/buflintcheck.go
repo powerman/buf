@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/bufcheck/internal"
-	"github.com/bufbuild/buf/internal/pkg/normalpath"
-	"github.com/bufbuild/buf/internal/pkg/protosource"
-	"github.com/bufbuild/buf/internal/pkg/protoversion"
-	"github.com/bufbuild/buf/internal/pkg/stringutil"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/bufcheck/internal"
+	"github.com/powerman/buf/internal/pkg/normalpath"
+	"github.com/powerman/buf/internal/pkg/protosource"
+	"github.com/powerman/buf/internal/pkg/protoversion"
+	"github.com/powerman/buf/internal/pkg/stringutil"
 )
 
 const (
@@ -165,7 +165,7 @@ func checkEnumValuePrefix(add addFunc, enumValue protosource.EnumValue) error {
 			enumValue.NameLocation(),
 			// also check the enum for this comment ignore
 			// this allows users to set this "globally" for an enum
-			// this came up in https://github.com/bufbuild/buf/issues/161
+			// this came up in https://github.com/powerman/buf/issues/161
 			[]protosource.Location{
 				enumValue.Enum().Location(),
 			},
@@ -760,7 +760,7 @@ func checkRPCRequestStandardName(add addFunc, method protosource.Method, allowGo
 			method,
 			method.InputTypeLocation(),
 			// also check the method and service for this comment ignore
-			// this came up in https://github.com/bufbuild/buf/issues/242
+			// this came up in https://github.com/powerman/buf/issues/242
 			[]protosource.Location{
 				method.Location(),
 				method.Service().Location(),
@@ -808,7 +808,7 @@ func checkRPCResponseStandardName(add addFunc, method protosource.Method, allowG
 			method,
 			method.OutputTypeLocation(),
 			// also check the method and service for this comment ignore
-			// this came up in https://github.com/bufbuild/buf/issues/242
+			// this came up in https://github.com/powerman/buf/issues/242
 			[]protosource.Location{
 				method.Location(),
 				method.Service().Location(),

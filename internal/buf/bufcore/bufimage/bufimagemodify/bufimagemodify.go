@@ -19,9 +19,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/buf/bufcore/bufimage"
-	"github.com/bufbuild/buf/internal/gen/data/datawkt"
-	"github.com/bufbuild/buf/internal/pkg/protoversion"
+	"github.com/powerman/buf/internal/buf/bufcore/bufimage"
+	"github.com/powerman/buf/internal/gen/data/datawkt"
+	"github.com/powerman/buf/internal/pkg/protoversion"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

@@ -15,7 +15,7 @@
 package buflint
 
 import (
-	"github.com/bufbuild/buf/internal/buf/bufcheck/internal"
+	"github.com/powerman/buf/internal/buf/bufcheck/internal"
 )
 
 type rule struct {

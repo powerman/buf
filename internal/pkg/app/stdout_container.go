@@ -17,7 +17,7 @@ package app
 import (
 	"io"
 
-	"github.com/bufbuild/buf/internal/pkg/ioextended"
+	"github.com/powerman/buf/internal/pkg/ioextended"
 )
 
 type stdoutContainer struct {

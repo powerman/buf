@@ -18,7 +18,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bufbuild/buf/internal/pkg/ioextended"
+	"github.com/powerman/buf/internal/pkg/ioextended"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/trace"

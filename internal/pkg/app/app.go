@@ -23,7 +23,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/bufbuild/buf/internal/pkg/interrupt"
+	"github.com/powerman/buf/internal/pkg/interrupt"
 )
 
 // EnvContainer provides envionment variables.

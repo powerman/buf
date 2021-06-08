@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/pkg/app"
+	"github.com/powerman/buf/internal/pkg/app"
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

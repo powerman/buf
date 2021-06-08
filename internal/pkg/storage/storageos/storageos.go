@@ -16,7 +16,7 @@
 package storageos
 
 import (
-	"github.com/bufbuild/buf/internal/pkg/storage"
+	"github.com/powerman/buf/internal/pkg/storage"
 )
 
 // Provider provides new ReadWriteBuckets.

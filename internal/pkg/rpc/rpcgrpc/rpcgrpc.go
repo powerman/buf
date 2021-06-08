@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/internal/pkg/rpc"
-	"github.com/bufbuild/buf/internal/pkg/rpc/rpcheader"
+	"github.com/powerman/buf/internal/pkg/rpc"
+	"github.com/powerman/buf/internal/pkg/rpc/rpcheader"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

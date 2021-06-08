@@ -15,24 +15,24 @@ plugins:
     out: internal/gen/proto/api
     opt:
       - paths=source_relative
-      - named_go_package=api=github.com/bufbuild/buf/internal/gen/proto/api
+      - named_go_package=api=github.com/powerman/buf/internal/gen/proto/api
   - name: go-apiclient
     out: internal/gen/proto/apiclient
     opt:
       - paths=source_relative
-      - named_go_package=api=github.com/bufbuild/buf/internal/gen/proto/api
-      - named_go_package=apiclient=github.com/bufbuild/buf/internal/gen/proto/apiclient
+      - named_go_package=api=github.com/powerman/buf/internal/gen/proto/api
+      - named_go_package=apiclient=github.com/powerman/buf/internal/gen/proto/apiclient
   - name: go-apiclientgrpc
     out: internal/gen/proto/apiclientgrpc
     opt:
       - paths=source_relative
-      - named_go_package=api=github.com/bufbuild/buf/internal/gen/proto/api
-      - named_go_package=apiclient=github.com/bufbuild/buf/internal/gen/proto/apiclient
-      - named_go_package=apiclientgrpc=github.com/bufbuild/buf/internal/gen/proto/apiclientgrpc
+      - named_go_package=api=github.com/powerman/buf/internal/gen/proto/api
+      - named_go_package=apiclient=github.com/powerman/buf/internal/gen/proto/apiclient
+      - named_go_package=apiclientgrpc=github.com/powerman/buf/internal/gen/proto/apiclientgrpc
   - name: go-apiclienttwirp
     out: internal/gen/proto/apiclienttwirp
     opt:
       - paths=source_relative
-      - named_go_package=api=github.com/bufbuild/buf/internal/gen/proto/api
-      - named_go_package=apiclient=github.com/bufbuild/buf/internal/gen/proto/apiclient
-      - named_go_package=apiclienttwirp=github.com/bufbuild/buf/internal/gen/proto/apiclienttwirp
+      - named_go_package=api=github.com/powerman/buf/internal/gen/proto/api
+      - named_go_package=apiclient=github.com/powerman/buf/internal/gen/proto/apiclient
+      - named_go_package=apiclienttwirp=github.com/powerman/buf/internal/gen/proto/apiclienttwirp

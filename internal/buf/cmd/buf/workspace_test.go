@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufcli"
-	"github.com/bufbuild/buf/internal/pkg/osextended"
-	"github.com/bufbuild/buf/internal/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/internal/pkg/storage/storageos"
+	"github.com/powerman/buf/internal/buf/bufcli"
+	"github.com/powerman/buf/internal/pkg/osextended"
+	"github.com/powerman/buf/internal/pkg/storage/storagearchive"
+	"github.com/powerman/buf/internal/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
 )
 

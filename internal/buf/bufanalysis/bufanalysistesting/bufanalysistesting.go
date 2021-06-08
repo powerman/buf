@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bufbuild/buf/internal/buf/bufanalysis"
-	"github.com/bufbuild/buf/internal/buf/bufcore"
+	"github.com/powerman/buf/internal/buf/bufanalysis"
+	"github.com/powerman/buf/internal/buf/bufcore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
